@@ -1,0 +1,81 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    background-color: #F3F5FC;
+    color: #0A3871;
+    font-family:'Inter', sans-serif;;
+    display: flex;
+    padding: 24px 16px;
+    flex-wrap: wrap;
+}
+
+.logo{
+    margin-left: -35px;
+    height: 48px;
+}
+
+.inputText{
+    margin-top: 80px;
+    margin-bottom: 200px;
+    color: #0A3871;
+    background-color: #F3F5FC;
+    height: 48px;
+    width: 330px;
+    font-size: 30px;
+    border: none;
+}
+
+.inputText::placeholder{
+    color:#0A3871
+}
+
+.info{
+    font-size: 13px;
+}
+
+p img{
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 2px;
+}
+
+.button{
+    width: 100%;
+    height: 65px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.encriptar{
+    background-color: #0A3871;
+    color:#F3F5FC
+}
+
+.desencriptar{
+    color: #0A3871;
+    margin-top: 25px;
+}
+
+.outputZone{
+    background-color:  #ffffff;
+    padding: 35px;
+    margin-top: 70px;
+    border-radius: 32px;
+    text-align: center;
+    box-shadow: 0px 24px 32px -8px rgba(0,0,0,0.08);
+}
+
+.rectText{
+    color: #000000;
+    font-weight: 200px;
+}
+
+div h1{
+    font-size: 25px;
+}
+
+div p{
+    width: 260px;
+    margin: auto
+}
