@@ -7,6 +7,8 @@ body{
     display: flex;
     padding: 24px 16px;
     flex-wrap: wrap;
+    max-width: 95%;
+    max-height: 95%;
 }
 
 .logo{
@@ -48,6 +50,11 @@ p img{
     border-radius: 20px;
 }
 
+.button:hover{
+    background-color: #F3F5FC;
+    color: #0A3871;
+}
+
 .encriptar{
     background-color: #0A3871;
     color:#F3F5FC
@@ -61,7 +68,7 @@ p img{
 .outputZone{
     background-color:  #ffffff;
     padding: 35px;
-    margin-top: 70px;
+    margin-top: 45px;
     border-radius: 32px;
     text-align: center;
     box-shadow: 0px 24px 32px -8px rgba(0,0,0,0.08);
@@ -79,6 +86,12 @@ div h1{
 div p{
     width: 260px;
     margin: auto
+}
+
+.outpuText{
+    visibility:hidden;
+    font-size: 24px;
+    text-align: left;
 }
 
 @media (min-width: 768px) and (max-width: 1240px) {
@@ -167,6 +180,10 @@ div p{
         margin: auto;
         position: absolute;
         bottom: 5vh;
+    }
+
+    .button:active{
+        font-size: 24px;
     }
 
     .desencriptar{

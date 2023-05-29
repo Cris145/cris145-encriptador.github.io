@@ -13,17 +13,21 @@
         <img src="styles/images/Logo.png" alt="Logo de alura" class="logo">
     </header>
     <main>
-        <input type="text" class="inputText" placeholder="Ingrese su texto aqui">
+        <input type="text" class="inputText" placeholder="Ingrese su texto aqui" id="input">
         <p class="info"> <img src="styles/images/Vector.png" alt="alerta"> Solo letras minúsculas y sin acentos</p>
         <input type="button" value="Encriptar" class="button encriptar">
         <input type="button" value="Desencriptar" class="button desencriptar">
 
         <div class="outputZone">
-            <div class="outputImg"></div>
-            <h1 class="rectText">Ningún mensaje fue encontrado</h1>
-            <p class="rectText">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <p class="outpuText"></p>
+            <div class="emptyInfo">
+                <div class="outputImg"></div>
+                <h1 class="rectText">Ningún mensaje fue encontrado</h1>
+                <p class="rectText">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
         </div>
 
     </main>
 </body>
+<script src="/scripts/script.js"></script>
 </html>
