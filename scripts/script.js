@@ -78,7 +78,7 @@ function salidaDeTextoEncriptado() {
     imagenesVacias.style.visibility = "hidden" 
     zonaDeTexto.style.visibility = "visible"
     copy_btn.style.visibility = "visible"
-    zonaDeTexto.innerHTML = encriptar(entrada.value)
+    zonaDeTexto.value = encriptar(entrada.value)
 }
 
 
@@ -86,7 +86,7 @@ function salidaDeTextoDesencriptado() {
     imagenesVacias.style.visibility = "hidden" 
     zonaDeTexto.style.visibility = "visible"
     copy_btn.style.visibility = "visible"
-    zonaDeTexto.innerHTML = desencriptar(entrada.value)
+    zonaDeTexto.value = desencriptar(entrada.value)
 }
 botonEncriptar.addEventListener("click", salidaDeTextoEncriptado);
 botonDesencriptar.addEventListener("click",salidaDeTextoDesencriptado);
