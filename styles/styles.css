@@ -11,24 +11,33 @@ body{
     max-height: 95%;
 }
 
+textarea:focus{
+    outline: none;
+    text-decoration: none;
+}
+
+::placeholder { color: #0A3871; }
+
 .logo{
     margin-left: -35px;
     height: 48px;
 }
 
 .inputText{
-    margin-top: 80px;
-    margin-bottom: 200px;
+    position: absolute;
+    top: -100px;
     color: #0A3871;
     background-color: #F3F5FC;
-    height: 48px;
-    width: 330px;
     font-size: 30px;
     border: none;
 }
 
 .inputText::placeholder{
     color:#0A3871
+}
+
+.inputText:hover{
+    border: none;
 }
 
 .info{
@@ -92,8 +101,23 @@ div p{
     visibility:hidden;
     font-size: 24px;
     text-align: left;
+    border: none;
 }
 
+.copy_btn{
+    left: 65px;
+    visibility: hidden;
+    background-color: #FFFFFF;
+}
+
+.emptyInfo{
+    position: absolute;
+    top: 10px;
+}
+
+textarea{
+    resize: none;
+}
 @media (min-width: 768px) and (max-width: 1240px) {
     body{
         flex-direction: column;  
@@ -106,6 +130,7 @@ div p{
         width: 90vw;
         margin-top: 0;
         margin-bottom: 350px;
+        border: none;
     }
 
     .button{
