@@ -168,7 +168,7 @@ textarea{
     .outputImg{
         width: 336px;
         height: 306px;
-        background-image: url("/styles/images/Muñeco.png");
+        background-image: url("https://github.com/Cris145/cris145-encriptador.github.io/blob/master/styles/images/Mu%C3%B1eco.png");
         background-size: cover;
         margin-top: 10vh;
     }
