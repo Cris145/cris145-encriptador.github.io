@@ -168,7 +168,7 @@ textarea{
     .outputImg{
         width: 336px;
         height: 306px;
-        background-image: url("../styles/images/Muñeco.png");
+        background-image: url("/styles/images/Muñeco.png");
         background-size: cover;
         margin-top: 10vh;
     }
